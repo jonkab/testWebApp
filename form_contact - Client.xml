@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--?xml-stylesheet type="text/xsl" href="AXAFR_CONFIRMATION_CLIENT_CONTACT.xslt" ?-->
+<?xml-stylesheet type="text/xsl" href="test-mail.xslt" ?>
+
+    <data:ArrayOfDonneeFormulaire xmlns:data="http://schemas.datacontract.org/2004/07/Afs.Socle.Routing.Contracts.Data">
+
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>ID_APPLICATION</data:CodeQuestion>
+        <data:LibelleQuestion>ID_APPLICATION</data:LibelleQuestion>
+        <data:ValeurReponse>AXAFR</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>civil</data:CodeQuestion>
+        <data:LibelleQuestion>Civilite</data:LibelleQuestion>
+        <data:ValeurReponse>M</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>nom_interlocuteur</data:CodeQuestion>
+        <data:LibelleQuestion>Nom</data:LibelleQuestion>
+        <data:ValeurReponse>KIM</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>prenom_interlocuteur</data:CodeQuestion>
+        <data:LibelleQuestion>Prenom</data:LibelleQuestion>
+        <data:ValeurReponse>BOUTIN</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>cpDomicile</data:CodeQuestion>
+        <data:LibelleQuestion>Code postal</data:LibelleQuestion>
+        <data:ValeurReponse>75004</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>CodePostal</data:CodeQuestion>
+        <data:LibelleQuestion>Code Postal (CERYX)</data:LibelleQuestion>
+        <data:ValeurReponse>75004</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>villeDomicile</data:CodeQuestion>
+        <data:LibelleQuestion>Ville</data:LibelleQuestion>
+        <data:ValeurReponse>Paris 04</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>Ville</data:CodeQuestion>
+        <data:LibelleQuestion>Ville (CERYX)</data:LibelleQuestion>
+        <data:ValeurReponse>Paris 04</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>adresseLigne1</data:CodeQuestion>
+        <data:LibelleQuestion>Adresse</data:LibelleQuestion>
+        <data:ValeurReponse>Rue Saint-Louis en l&apos;Ile</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>Adresse</data:CodeQuestion>
+        <data:LibelleQuestion>Adresse (CERYX)</data:LibelleQuestion>
+        <data:ValeurReponse>Rue Saint-Louis en l&apos;Ile</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>telephone</data:CodeQuestion>
+        <data:LibelleQuestion>Telephone</data:LibelleQuestion>
+        <data:ValeurReponse>0645785212</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>TelPortable</data:CodeQuestion>
+        <data:LibelleQuestion>TelPortable (CERYX)</data:LibelleQuestion>
+        <data:ValeurReponse>0645785212</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>email</data:CodeQuestion>
+        <data:LibelleQuestion>Email</data:LibelleQuestion>
+        <data:ValeurReponse>o.whkdg@orange.fr</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>Mail</data:CodeQuestion>
+        <data:LibelleQuestion>Mail (CERYX)</data:LibelleQuestion>
+        <data:ValeurReponse>o.whkdg@orange.fr</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>false</data:FormulaireAfficher>
+        <data:CodeQuestion>deja_client</data:CodeQuestion>
+        <data:LibelleQuestion>etes-vous deja client AXA ?</data:LibelleQuestion>
+        <data:ValeurReponse>Non</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>sujet</data:CodeQuestion>
+        <data:LibelleQuestion>Theme</data:LibelleQuestion>
+        <data:ValeurReponse>01-Une demande liée à un contrat</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>besoin</data:CodeQuestion>
+        <data:LibelleQuestion>Sous-Theme</data:LibelleQuestion>
+        <data:ValeurReponse>1-Auto-moto</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>num_contrat</data:CodeQuestion>
+        <data:LibelleQuestion>Numero de contrat</data:LibelleQuestion>
+        <data:ValeurReponse>11111111111111</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>message</data:CodeQuestion>
+        <data:LibelleQuestion>Votre message</data:LibelleQuestion>
+        <data:ValeurReponse>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>reply</data:CodeQuestion>
+        <data:LibelleQuestion>Contact</data:LibelleQuestion>
+        <data:ValeurReponse>par-email</data:ValeurReponse>
+      </data:DonneeFormulaire>
+      <data:DonneeFormulaire>
+        <data:FormulaireAfficher>true</data:FormulaireAfficher>
+        <data:CodeQuestion>recevoirOffreCommerciale</data:CodeQuestion>
+        <data:LibelleQuestion>J&apos;accepte de recevoir des offres commerciales des societes du groupe AXA par email.</data:LibelleQuestion>
+        <data:ValeurReponse>Oui</data:ValeurReponse>
+      </data:DonneeFormulaire>
+    </data:ArrayOfDonneeFormulaire>
