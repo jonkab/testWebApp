@@ -1,0 +1,57 @@
+/*
+* [TEMPLATING] - DESKTOP LESS - LAYOUT
+*/
+
+*,
+*:before,
+*:after {
+  .box-sizing(border-box);
+}
+
+/* THIS IS THE EQUIVALENT OF PROPERTIES CSS -> "outline: o;" FOR BROWSER DESKTOP
+*  BUT FOR BROWSER MOBILE & TABLET WITH THE PROPERTIES CSS -> "-webkit-tap-highlight-colorrgba: (0,0,0,0);"
+*/
+* { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+html {
+  font-size: 62.5%;
+  font-family: @font-family;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background:@wa-white;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  max-width: 980px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+a:active,
+a:focus{
+  outline: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*.page{
+  width: 650px;
+  float: left;
+  border: 1px solid #000;
+  height: 500px;
+}
+
+#aside{
+  float: right;
+  width: 312px;
+  border: 1px solid #000;
+  height: 500px;
+}*/
+
