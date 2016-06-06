@@ -32,6 +32,20 @@
                         {{/each}}
                     </ul>
                 </script>
+
+                <script id="built-in-helpers-template" type="text/x-handlebars-template">
+                    {{#each animals}}
+                        <p>
+                            The {{capitalize this.name}} says {{#if this.noise}} "{{this.noise}}".
+                                                              {{else}}
+                                                                -> nothing since its a {{this.name}}.
+                                                              {{/if}}
+                        </p>
+                    {{/each}}
+                </script>
+
+                <div class="content-placeholder"></div>
+
             </section>
         </aside>
         <!-- build:js scripts/vendor.js -->
