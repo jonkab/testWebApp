@@ -25,7 +25,7 @@ gulp.task('deploy', function() {
 
 require('require-dir')('./tasks');
 
-gulp.task('produce',['wiredep','es6','less','images','fonts']);
+gulp.task('produce',['wiredep','es6','less','images','fonts','include-tpl']);
 
 gulp.task('package',['produce','html','extras']);
 
