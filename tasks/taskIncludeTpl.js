@@ -1,8 +1,8 @@
 var gulp = require('gulp'),
     fileinclude = require('gulp-file-include');
 
-gulp.task('include-tpl', function() {
-    gulp.src(['./app/static-files/templates/page.html'])
+gulp.task('includeTpl', function() {
+    gulp.src(['./app/index.html'])
         .pipe(fileinclude({
             prefix: '@@',
             basepath: '@file'

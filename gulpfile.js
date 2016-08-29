@@ -25,7 +25,7 @@ gulp.task('deploy', function() {
 
 require('require-dir')('./tasks');
 
-gulp.task('produce',['wiredep','es6','less','images','fonts','include-tpl']);
+gulp.task('produce',['wiredep','es6','less','images','fonts','includeTpl']);
 
 gulp.task('package',['produce','html','extras']);
 
@@ -34,7 +34,7 @@ gulp.task('serve', ['produce'], function () {
     notify: false,
     port: 9005,
     server: {
-      baseDir: ['.tmp', 'app'],
+      baseDir: ['.tmp', 'dist'],
       middleware: function (req, res, next) {
         console.log('Adding CORS header for ' + req.method + ': ' + req.url);
         res.setHeader('Access-Control-Allow-Origin', '*');
