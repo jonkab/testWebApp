@@ -34,7 +34,7 @@ gulp.task('serve', ['produce'], function () {
     notify: false,
     port: 9005,
     server: {
-      baseDir: ['.tmp', 'dist'],
+      baseDir: ['.tmp', 'app'],
       middleware: function (req, res, next) {
         console.log('Adding CORS header for ' + req.method + ': ' + req.url);
         res.setHeader('Access-Control-Allow-Origin', '*');

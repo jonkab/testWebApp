@@ -2,10 +2,10 @@ var gulp = require('gulp'),
     fileinclude = require('gulp-file-include');
 
 gulp.task('includeTpl', function() {
-    gulp.src(['./app/index.html'])
+    gulp.src(['./app/static-files/layout/index.html'])
         .pipe(fileinclude({
             prefix: '@@',
             basepath: '@file'
         }))
-        .pipe(gulp.dest('./dist/'));
+        .pipe(gulp.dest('./app/'));
 });
