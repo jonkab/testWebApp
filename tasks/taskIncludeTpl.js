@@ -7,5 +7,5 @@ gulp.task('includeTpl', function() {
             prefix: '@@',
             basepath: '@file'
         }))
-        .pipe(gulp.dest('./app/'));
+        .pipe(gulp.dest('.tmp/'));
 });

@@ -6,7 +6,7 @@ var source = require('vinyl-source-stream');
 gulp.task('wiredep', function () {
     var wiredep = require('wiredep').stream;
 
-    gulp.src('app/*.html')
+    gulp.src('app/**/*.html')
         .pipe(wiredep({
 //      ignorePath: /^(\.\.\/)*\.\./
         }))

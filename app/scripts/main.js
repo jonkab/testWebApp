@@ -7,7 +7,6 @@ import * as jqueryAndPlugins from './modules/jqueryPlugins';
 var _ = require('lodash');
 import * as utils from './modules/utils';
 
-console.log('watch JS -> yes');
 
 (function  ($) {
 
