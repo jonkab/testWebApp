@@ -33,5 +33,11 @@ _.mixin({
 
 
 
+    $('.blockList').creatList();
+
+
+
+
+
 })(jQuery);
 

@@ -25,7 +25,8 @@ gulp.task('deploy', function() {
 
 require('require-dir')('./tasks');
 
-gulp.task('produce',['includeTpl','wiredep','es6','less','images','fonts']);
+//gulp.task('produce',['includeTpl','wiredep','es6','less','images','fonts']);
+gulp.task('produce',['wiredep','es6','less','images','fonts']);
 
 gulp.task('package',['produce','html','extras']);
 
@@ -48,7 +49,8 @@ gulp.task('serve', ['produce'], function () {
 
   // watch for changes
   gulp.watch([
-    'app/**/*.html',
+    //'app/**/*.html',
+    'app/*.html',
     'app/scripts/**/*.js',
     'app/images/**/*',
     '.tmp/fonts/**/*'
