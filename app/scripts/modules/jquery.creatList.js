@@ -42,7 +42,7 @@ var jQuery = require('jquery/dist/jquery.min');
         constructList: function(){
 
 
-            var techno = ['JS','JAVA','DOTNET','HTML','CSS','PHP','LESS', 'RUBY','PYTHON','C#','PASCAL','XCODE','COBALT'];
+            var techno = ['JS','JAVA','HTML','CSS','PHP','LESS', 'RUBY','PYTHON','C#','PASCAL','OBJECTIVE-C','COBALT'];
             var list = "";
 
             if(this.$blockList){
