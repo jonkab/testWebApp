@@ -44,17 +44,33 @@ h1{
   font-size: 5rem;
 }
 
-/*.page{
-  width: 650px;
-  float: left;
-  border: 1px solid #000;
-  height: 500px;
+.diamsContainer{
+  padding-top: 52px;
 }
 
-#aside{
-  float: right;
-  width: 312px;
-  border: 1px solid #000;
-  height: 500px;
-}*/
+.diamsFrameContainer{
+  margin: 0 auto;
+  max-width: 1210px;
+  width: 100%;
 
+  .diamsNavContainer{
+    position: fixed;
+    margin-top: 80px;
+  }
+  .diamsMainContent{
+    margin-left: 300px;
+
+    .diamsContent,
+    .diamsColumnContent{
+      float: left;
+    }
+
+    .diamsContent{
+      width: 79%;
+    }
+
+    .diamsColumnContent{
+      width: 20%;
+    }
+  }
+}
