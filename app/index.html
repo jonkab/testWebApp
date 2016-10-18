@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <link href="images/favicon32.ico" rel="icon" type="image/x-icon">
+    <link href="images/favicon32.ico" rel="shortcut icon" type="image/x-icon">
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -19,13 +21,12 @@
                 <nav class="diamsNavigation">
                     <ul>
                         <li>
-                            <a href="#dev">Développement, Intégration</a>
+                            <a href="#dev_int">Développement, Intégration</a>
                             <ul>
                                 <li><a href="#heb">Hébergement</a></li>
                             </ul>
                         </li>
-
-                        <li><a href="#dom">Choix du nom de domaine</a></li>
+                        <li><a href="#choix_nom_domaine">Choix du nom de domaine</a></li>
                         <li><a href="#ux">Expérience utilisateur (UX)</a></li>
                         <li><a href="#design">Design</a></li>
                         <li><a href="">SEO</a></li>
@@ -38,47 +39,177 @@
                 </nav>
             </aside>
             <section class="diamsMainContent">
-                <div class="diamsMainColumn">
-                    <div id="dev" class="box">
+                <div id="dev_int" class="box">
+                    <!-- DEVELOPPEMENT INTEGRATION -->
+                    <div class="diamsMainColumn">
                         <h2>Développement, Intégration</h2>
                         <article class="diamsContent">
-                            <p>Obligations</p>
-                            <ul class="blockList"></ul>
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>
+                                    <strong>
+                                        Prendre contact avec la Sécurité qui fera une 1<sup>ère</sup> évaluation du projet : ceci est indispensable à la validation du Digital Permit
+                                    </strong>
+                                    <ul>
+                                        <li>Les régles de sécurité sont variables d'un projet à l'autre et ne pourront être identifiées qu'au travers de cet échange</li>
+                                        <li>Vous vous engagez ensuite à suivre les règles partagées par la Sécurité</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Indiquer le contact technique en charge de la réalisation de votre site
+                                    </strong>
+                                    <form method="" action="">
+                                        <input type="text" placeholder="Nom" name="nom">
+                                        <input type="text" placeholder="Prénom" name="prenom">
+                                        <input type="email" placeholder="Mail" name="mail">
+                                        <input type="number" placeholder="Téléphone" name="tel">
+                                        <button type="submit" name="saveContact">Enregistrer</button>
+                                    </form>
+                                </li>
+                                <li>
+                                    <strong>
+                                        S'il y a authentification d'un client AXA
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            Prendre contact avec l'architecture pour identifier si une utilisation AXA Connect est envisageable
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
                         </article>
                     </div>
-                    <div id="heb" class="box">
+                    <aside class="diamsAsideColumn">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                    <!-- HEBERGEMENT -->
+                    <div id="heb" class="diamsMainColumn">
                         <h2>Hébergement</h2>
                         <article class="diamsContent">
-                            <p>Obligations</p>
-                            <ul class="blockList"></ul>
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>
+                                    <strong>
+                                        Sile site contient des données clients ou une offre de produits ou de service AXA alors :
+                                    </strong>
+                                    <ul>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Si le site est hébergé en interne chez AXA Tech
+                                    </strong>
+                                    <ul>
+                                        <li>Vous devez simplement indiquer votre contact technique (voir ci-dessous)</li>
+                                    </ul>
+                                    <strong>
+                                        Si le site ........ .............. ........ ... . ... ........ .. ... ....... ..
+                                    </strong>
+                                    <ul>
+                                        <li>Lorem ipsum</li>
+                                        <li>Lorem ipsum</li>
+                                    </ul>
+                                    <form method="" action="">
+                                        <input type="text" placeholder="Nom de l'hébergeur" name="nomhebergeur">
+                                        <input type="text" placeholder="Prénom" name="prenom">
+                                        <input type="email" placeholder="Mail" name="mail">
+                                        <input type="number" placeholder="Téléphone" name="tel">
+                                        <button type="submit" name="saveContact">Enregistrer</button>
+                                    </form>
+                                </li>
+                            </ul>
+
                         </article>
                     </div>
-                    <div id="dom" class="box">
+                    <aside class="diamsAsideColumn">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </div>
+                <!-- CHOIX NOM DE DOMAINE -->
+                <div id="choix_nom_domaine" class="box">
+                    <div class="diamsMainColumn">
                         <h2>Choix du nom de domaine</h2>
                         <article class="diamsContent">
-                            <p>Obligations</p>
-                            <ul class="blockList"></ul>
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>
+                                    <strong>
+                                        Prendre contact avec la Sécurité qui fera une 1<sup>ère</sup> évaluation du projet : ceci est indispensable à la validation du Digital Permit
+                                    </strong>
+                                    <ul>
+                                        <li>Les régles de sécurité sont variables d'un projet à l'autre et ne pourront être identifiées qu'au travers de cet échange</li>
+                                        <li>Vous vous engagez ensuite à suivre les règles partagées par la Sécurité</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Indiquer le contact technique en charge de la réalisation de votre site
+                                    </strong>
+                                    <form method="" action="">
+                                        <input type="text" placeholder="Nom" name="nom">
+                                        <input type="text" placeholder="Prénom" name="prenom">
+                                        <input type="email" placeholder="Mail" name="mail">
+                                        <input type="number" placeholder="Téléphone" name="tel">
+                                        <button type="submit" name="saveContact">Enregistrer</button>
+                                    </form>
+                                </li>
+                                <li>
+                                    <strong>
+                                        S'il y a authentification d'un client AXA
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            Prendre contact avec l'architecture pour identifier si une utilisation AXA Connect est envisageable
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </article>
                     </div>
-                    <div id="heb" class="box">
-                        <h2>Hébergement</h2>
-                        <article class="diamsContent">
-                            <p>Obligations</p>
-                            <ul class="blockList"></ul>
-                        </article>
-                    </div>
-                    <div id="heb" class="box">
-                        <h2>Hébergement</h2>
-                        <article class="diamsContent">
-                            <p>Obligations</p>
-                            <ul class="blockList"></ul>
-                        </article>
-                    </div>
+                    <aside class="diamsAsideColumn">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
                 </div>
-                <aside class="diamsAsideColumn">
-                    <h2>Contacts</h2>
-                    <ul class="blockList"></ul>
-                </aside>
             </section>
         </div>
     </main>
