@@ -20,7 +20,7 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background:@wa-white;
+  background-color:#fcfcfc;
   font-size: 1.4rem;
   margin: 0;
 }
@@ -59,17 +59,23 @@ h1{
   }
   .diamsMainContent{
     margin-left: 300px;
+    margin-top: 18px;
 
-    .diamsContent,
-    .diamsColumnContent{
+    .box{
+      width: 100%;
+    }
+
+    .diamsMainColumn,
+    .diamsAsideColumn{
       float: left;
     }
 
-    .diamsContent{
+    .diamsMainColumn{
       width: 79%;
+      margin-right: 1%;
     }
 
-    .diamsColumnContent{
+    .diamsAsideColumn{
       width: 20%;
     }
   }

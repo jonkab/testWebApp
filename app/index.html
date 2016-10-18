@@ -13,16 +13,21 @@
     <header class="diamsHeading">
         <h1 class="diamsH1">Développement, Intégration & Hébergement</h1>
     </header>
-    <section id="diamsMain" class="diamsContainer">
+    <main id="diamsMain" class="diamsContainer">
         <div class="diamsFrameContainer">
             <aside class="diamsNavContainer">
                 <nav class="diamsNavigation">
                     <ul>
-                        <li><a href="">Développement, Intégration</a></li>
-                        <li><a href="">Hébergement</a></li>
-                        <li><a href="">Choix du nom de domaine</a></li>
-                        <li><a href="">Expérience utilisateur (UX)</a></li>
-                        <li><a href="">Design</a></li>
+                        <li>
+                            <a href="#dev">Développement, Intégration</a>
+                            <ul>
+                                <li><a href="#heb">Hébergement</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#dom">Choix du nom de domaine</a></li>
+                        <li><a href="#ux">Expérience utilisateur (UX)</a></li>
+                        <li><a href="#design">Design</a></li>
                         <li><a href="">SEO</a></li>
                         <li><a href="">Contenu éditorial</a></li>
                         <li><a href="">Webanalytics</a></li>
@@ -33,17 +38,50 @@
                 </nav>
             </aside>
             <section class="diamsMainContent">
-                <article class="diamsContent">
-                    <h2>Développement, Intégration</h2>
-                    <ul class="blockList"></ul>
-                </article>
-                <aside class="diamsColumnContent">
+                <div class="diamsMainColumn">
+                    <div id="dev" class="box">
+                        <h2>Développement, Intégration</h2>
+                        <article class="diamsContent">
+                            <p>Obligations</p>
+                            <ul class="blockList"></ul>
+                        </article>
+                    </div>
+                    <div id="heb" class="box">
+                        <h2>Hébergement</h2>
+                        <article class="diamsContent">
+                            <p>Obligations</p>
+                            <ul class="blockList"></ul>
+                        </article>
+                    </div>
+                    <div id="dom" class="box">
+                        <h2>Choix du nom de domaine</h2>
+                        <article class="diamsContent">
+                            <p>Obligations</p>
+                            <ul class="blockList"></ul>
+                        </article>
+                    </div>
+                    <div id="heb" class="box">
+                        <h2>Hébergement</h2>
+                        <article class="diamsContent">
+                            <p>Obligations</p>
+                            <ul class="blockList"></ul>
+                        </article>
+                    </div>
+                    <div id="heb" class="box">
+                        <h2>Hébergement</h2>
+                        <article class="diamsContent">
+                            <p>Obligations</p>
+                            <ul class="blockList"></ul>
+                        </article>
+                    </div>
+                </div>
+                <aside class="diamsAsideColumn">
                     <h2>Contacts</h2>
                     <ul class="blockList"></ul>
                 </aside>
             </section>
         </div>
-    </section>
+    </main>
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="../bower_components/matchMedia/matchMedia.js"></script>
