@@ -43,7 +43,7 @@ _.mixin({
                 target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                 if (target.length) {
                     var top = target.offset().top,
-                        calculTop = target.offset().top - 93;
+                        calculTop = top - 93;
                     $('html, body').animate({
                         scrollTop: calculTop
                     }, 1000);

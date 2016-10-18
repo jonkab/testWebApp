@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a40e26-5167-4ce0-a994-91080ba92091" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/navigation.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/fonts/src/iconsWA.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/fonts/src/iconsWA.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/fonts/src/iconsWA.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/fonts/src/iconsWA.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/icons/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/fonts/src/iconsWA.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/fonts/src/iconsWA.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/fonts/src/iconsWA.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/fonts/src/iconsWA.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/src/iconsWA.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/src/iconsWA.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/src/iconsWA.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/src/iconsWA.woff" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/app.js" afterPath="$PROJECT_DIR$/.tmp/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/fonts/icons.less" afterPath="$PROJECT_DIR$/.tmp/fonts/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/header.less" afterPath="$PROJECT_DIR$/app/styles/components/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/fonts/icons.less" afterPath="$PROJECT_DIR$/app/styles/fonts/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/layout.less" afterPath="$PROJECT_DIR$/app/styles/layout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.less" afterPath="$PROJECT_DIR$/app/styles/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/taskIconfont.js" afterPath="$PROJECT_DIR$/tasks/taskIconfont.js" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +39,7 @@
             <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="400">
-                  <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+                  <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -199,9 +174,9 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/main.less" />
         <option value="$PROJECT_DIR$/app/styles/components/navigation.less" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/components/header.less" />
         <option value="$PROJECT_DIR$/app/styles/layout.less" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
       </list>
     </option>
   </component>
@@ -579,16 +554,16 @@
       <workItem from="1475226613622" duration="3830000" />
       <workItem from="1476345330870" duration="11281000" />
       <workItem from="1476691426942" duration="6733000" />
-      <workItem from="1476777086440" duration="7978000" />
+      <workItem from="1476777086440" duration="8163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70891000" />
+    <option name="totallyTimeSpent" value="71076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1921" y="23" width="1919" height="1053" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1512118" sideWeight="0.49358973" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -967,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/navigation.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -995,6 +962,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
           <folding />
         </state>
       </provider>
