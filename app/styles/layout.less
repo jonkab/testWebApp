@@ -20,8 +20,8 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background:@wa-white;
-  font-size: 1.4rem;
+  background-color:#fcfcfc;
+  font-size: 1.6rem;
   margin: 0;
 }
 img{
@@ -32,45 +32,32 @@ img{
 a,
 a:hover,
 a:active,
-a:focus{
+a:focus,
+input,
+button{
   outline: 0;
 }
 
 a{
   text-decoration: none;
+  color: #203866;
 }
 
 h1{
   font-size: 5rem;
 }
 
-.diamsContainer{
+sup{
+  position: initial;
+}
+
+.diamsMainContainer{
   padding-top: 52px;
+  color: #203866;
 }
 
 .diamsFrameContainer{
   margin: 0 auto;
   max-width: 1210px;
   width: 100%;
-
-  .diamsNavContainer{
-    position: fixed;
-    margin-top: 80px;
-  }
-  .diamsMainContent{
-    margin-left: 300px;
-
-    .diamsContent,
-    .diamsColumnContent{
-      float: left;
-    }
-
-    .diamsContent{
-      width: 79%;
-    }
-
-    .diamsColumnContent{
-      width: 20%;
-    }
-  }
 }
