@@ -47,7 +47,9 @@ _.mixin({
                     $('html, body').animate({
                         scrollTop: calculTop
                     }, 1000);
+                    //console.log(target);
                     return false;
+
                 }
             }
         });

@@ -17,24 +17,37 @@
     </header>
     <main id="diamsMain" class="diamsMainContainer">
         <div class="diamsFrameContainer">
+            <!-- NAVIGATION -->
             <aside class="diamsNavContainer">
                 <nav class="diamsNavigation">
-                    <ul>
-                        <li>
-                            <a href="#dev_int">Développement, Intégration</a>
+                    <ul class="diamsBlockList">
+                        <li class="diamsList diamsListParentElement">
+                            <a class="diamsElementLink" href="#dev_int">Développement, Intégration</a>
                             <ul>
-                                <li><a href="#heb">Hébergement</a></li>
+                                <li class="diamsList"><a class="diamsListChildElement diamsElementLink" href="#heb">Hébergement</a></li>
                             </ul>
                         </li>
-                        <li><a href="#choix_nom_domaine">Choix du nom de domaine</a></li>
-                        <li><a href="#ux">Expérience utilisateur (UX)</a></li>
-                        <li><a href="#design">Design</a></li>
-                        <li><a href="">SEO</a></li>
-                        <li><a href="">Contenu éditorial</a></li>
-                        <li><a href="">Webanalytics</a></li>
-                        <li><a href="">Juridique</a></li>
-                        <li><a href="">Achats</a></li>
-                        <li><a href="">Sécurité & CNIL</a></li>
+                        <li class="diamsList diamsListParentElement"><a class="diamsElementLink" href="#choix_nom_domaine">Choix du nom de domaine</a></li>
+                        <li class="diamsList diamsListParentElement">
+                            <a class="diamsElementLink" href="#ux">Expérience utilisateur (UX)</a>
+                            <ul>
+                                <li class="diamsList diamsListChildElement"><a class="diamsElementLink" href="#design">Design</a></li>
+                            </ul>
+                        </li>
+                        <li class="diamsList diamsListParentElement">
+                            <a class="diamsElementLink" href="#seo">SEO</a>
+                            <ul>
+                                <li class="diamsList diamsListChildElement"><a class="diamsElementLink" href="#contenu_editorial">Contenu éditorial</a></li>
+                                <li class="diamsList diamsListChildElement"><a class="diamsElementLink" href="#webanalytics">Webanalytics</a></li>
+                            </ul>
+                        </li>
+                        <li class="diamsList diamsListParentElement">
+                            <a class="diamsElementLink" href="#juridique">Juridique</a>
+                            <ul>
+                                <li class="diamsList diamsListChildElement"><a class="diamsElementLink" href="#achats">Achats</a></li>
+                                <li class="diamsList diamsListChildElement"><a class="diamsElementLink" href="#securite_cnil">Sécurité & CNIL</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </aside>
@@ -78,7 +91,7 @@
                                     </ul>
                                 </li>
                             </ul>
-
+                            <button type="submit" name="waitValidation">J'attends la validation de la Sécurité</button>
                         </article>
                     </div>
                     <aside class="diamsSideBar">
@@ -125,13 +138,6 @@
                                         <li>Lorem ipsum</li>
                                         <li>Lorem ipsum</li>
                                     </ul>
-                                    <form method="" action="">
-                                        <input type="text" placeholder="Nom de l'hébergeur" name="nomhebergeur">
-                                        <input type="text" placeholder="Prénom" name="prenom">
-                                        <input type="email" placeholder="Mail" name="mail">
-                                        <input type="number" placeholder="Téléphone" name="tel">
-                                        <button type="submit" name="saveContact">Enregistrer</button>
-                                    </form>
                                 </li>
                             </ul>
 
@@ -173,13 +179,6 @@
                                     <strong>
                                         Indiquer le contact technique en charge de la réalisation de votre site
                                     </strong>
-                                    <form method="" action="">
-                                        <input type="text" placeholder="Nom" name="nom">
-                                        <input type="text" placeholder="Prénom" name="prenom">
-                                        <input type="email" placeholder="Mail" name="mail">
-                                        <input type="number" placeholder="Téléphone" name="tel">
-                                        <button type="submit" name="saveContact">Enregistrer</button>
-                                    </form>
                                 </li>
                                 <li>
                                     <strong>
@@ -189,6 +188,233 @@
                                         <li>
                                             Prendre contact avec l'architecture pour identifier si une utilisation AXA Connect est envisageable
                                         </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </div>
+                <!-- EXPERIENCE UTILISATEUR UX -->
+                <div id="ux" class="diamsBox">
+                    <div class="diamsMainColumn">
+                        <h2>Expérience utilisateur (UX)</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Les régles de sécurité sont variables d'un projet à l'autre et ne pourront être identifiées qu'au travers de cet échange</li>
+                                <li>Vous vous engagez ensuite à suivre les règles partagées par la Sécurité</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                    <!-- DESIGN -->
+                    <div id="design" class="diamsMainColumn">
+                        <h2>Design</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </div>
+                <!-- SEO -->
+                <div id="seo" class="diamsBox">
+                    <div class="diamsMainColumn">
+                        <h2>SEO</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Les régles de sécurité sont variables d'un projet à l'autre et ne pourront être identifiées qu'au travers de cet échange</li>
+                                <li>Vous vous engagez ensuite à suivre les règles partagées par la Sécurité</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                    <!-- CONTENU EDITORIAL -->
+                    <div id="contenu_editorial" class="diamsMainColumn">
+                        <h2>Contenu éditorial</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                    <!-- WEBANALYTICS -->
+                    <div id="webanalytics" class="diamsMainColumn">
+                        <h2>Webanalytics</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                </div>
+                <!-- JURIDIQUE -->
+                <div id="juridique" class="diamsBox">
+                    <div class="diamsMainColumn">
+                        <h2>Juridique</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Les régles de sécurité sont variables d'un projet à l'autre et ne pourront être identifiées qu'au travers de cet échange</li>
+                                <li>Vous vous engagez ensuite à suivre les règles partagées par la Sécurité</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                    <!-- ACHATS -->
+                    <div id="achats" class="diamsMainColumn">
+                        <h2>Achats</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>Lorem ipsum</li>
+                                <li>Lorem ipsum</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <aside class="diamsSideBar">
+                        <h2>Contacts</h2>
+                        <ul class="contactList">
+                            <strong>Stéphane DELAVAL (Sécurité)</strong>
+                            <ul class="infosContact">
+                                <li>stéphane.delaval@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                            <strong>Erwan MOYSAN (Architecture)</strong>
+                            <ul class="infosContact">
+                                <li>erwan.moysan@axa.fr</li>
+                                <li>01 45 34 XX XX</li>
+                            </ul>
+                        </ul>
+                    </aside>
+                    <!-- SECURITE & CNIL -->
+                    <div id="securite_cnil" class="diamsMainColumn">
+                        <h2>Sécurité & CNIL</h2>
+                        <article class="diamsContent">
+                            <h3>Obligations</h3>
+                            <ul class="">
+                                <li>
+                                    <strong>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</strong>
+                                    <ul>
+                                        <li>Lorem ipsum Lorem ipsum Lorem</li>
+                                        <li>Lorem ipsum Lorem ipsum Lorem</li>
+                                        <li>Lorem ipsum Lorem ipsum Lorem</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</strong>
+                                    <ul>
+                                        <li>Lorem ipsum Lorem ipsum Lorem</li>
+                                        <li>Lorem ipsum Lorem ipsum Lorem</li>
                                     </ul>
                                 </li>
                             </ul>
